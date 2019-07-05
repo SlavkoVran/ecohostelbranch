@@ -1,12 +1,12 @@
 <template>
   <v-app>
-    <v-navigation-drawer temporary v-model="sideNav" absolute>
-      <v-list>
-        <v-list-tile v-for="item in menuItems" :key="item.title">
+    <v-navigation-drawer temporary v-model="sideNav" absolute dark class="providna">
+      <v-list >
+        <v-list-tile  v-for="item in menuItems" :key="item.title">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
-          <v-list-tile-content>{{ item.title }}</v-list-tile-content>
+          <v-list-tile-content >{{ item.title }}</v-list-tile-content>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
@@ -14,12 +14,12 @@
       <v-toolbar-side-icon @click="sideNav = !sideNav" class="hidden-md-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         Eco
-        <span class="font-weight-light" color="green3g">Hostel Branch</span>
+        <span class="font-weight-light">Hostel Branch</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn color="yel3g" flat v-for="item in menuItems" :key="item.title">{{ item.title }}</v-btn>
+        <v-btn  flat v-for="item in menuItems" :key="item.title">{{ item.title }}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
 

@@ -23,5 +23,7 @@ components:{
 </script>
 
 <style>
-
+.proba{
+    background: #ff000050;
+}
 </style>
