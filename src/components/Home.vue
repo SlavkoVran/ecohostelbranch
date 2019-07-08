@@ -2,6 +2,7 @@
     <div>
         <Landing/>
         <Rooms/>
+        <Footer/>
         
         
     </div>
@@ -10,6 +11,7 @@
 <script>
 import Landing from './Landing.vue'
 import Rooms from './Rooms.vue'
+import Footer from './Footer.vue'
 
 
 
@@ -17,7 +19,8 @@ export default {
 name: 'Home',
 components:{
     Landing,
-    Rooms
+    Rooms,
+    Footer
 }
 }
 </script>
