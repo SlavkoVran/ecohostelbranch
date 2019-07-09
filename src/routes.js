@@ -9,6 +9,7 @@
 // import Dashboard from './components/User/Dashboard.vue'
 
 import Home from './components/Home.vue'
+import Blog from './views/Blog'
 // import Landing from '.components/Landing.vue'
 
 
@@ -16,6 +17,10 @@ export const routes = [
     {
         path: '',
         component: Home
+    },
+    {
+        path: '/events',
+        component: Blog
     }
     
 //     {
