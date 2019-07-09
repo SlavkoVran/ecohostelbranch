@@ -2,6 +2,7 @@
     <div>
         <Landing/>
         <Rooms/>
+        <grid/>
         <Footer/>
         
         
@@ -12,6 +13,7 @@
 import Landing from './Landing.vue'
 import Rooms from './Rooms.vue'
 import Footer from './Footer.vue'
+import grid from './grid.vue' 
 
 
 
@@ -20,7 +22,8 @@ name: 'Home',
 components:{
     Landing,
     Rooms,
-    Footer
+    Footer,
+    grid
 }
 }
 </script>
