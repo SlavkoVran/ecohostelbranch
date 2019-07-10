@@ -6,7 +6,7 @@
       :key="i"
       :src="item.src"
     >
-    <v-layout  column align-center justify-center fill-height pa-2 class="lightbox yel3g--text">
+    <v-layout  column align-center justify-center fill-height pa-2 class="lightbox zuta--text ">
           
           <v-flex shrink style="width:40%">
             <div class="display-1">{{item.title}}</div>

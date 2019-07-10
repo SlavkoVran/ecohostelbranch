@@ -9,7 +9,8 @@ Vue.use(Vuetify, {
     naslovNar:"#f46036",
     zuta:"#edc649",
     pozadinaCrna:"#1F2421",
-    bojaTekst: "#fff"
-    
+    bojaTekst: "#fff",
   }
+  
+  
 })

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer temporary v-model="sideNav" absolute dark class="providna">
+    <v-navigation-drawer temporary v-model="sideNav" absolute dark class="pozadinaCrna">
       <v-list >
         <v-list-tile  v-for="item in menuItems" :key="item.title">
           <v-list-tile-action>
@@ -10,7 +10,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed dark class="dark3g">
+    <v-toolbar fixed dark class="pozadinaCrna">
       <v-toolbar-side-icon @click="sideNav = !sideNav" class="hidden-md-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>
         Eco
